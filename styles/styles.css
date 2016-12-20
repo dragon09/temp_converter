@@ -11,9 +11,14 @@
 }
 
 body {
-  background-image: url('http://unsplash.com/collections/215878/my-first-collection/cff25a15ca73c7693aefd4b720c8df09?photo=Ovn1hyBge38');
+  /*background-image: url('https://unsplash.com/collections/215878/my-first-collection/cff25a15ca73c7693aefd4b720c8df09?photo=Ovn1hyBge38');*/
+  position: relative;
   background-size: cover;
   background-repeat:no-repeat;
+}
+
+.temp_box {
+  position: absolute;
 }
 
 input {
@@ -25,7 +30,6 @@ input {
 span {
   padding: 9px;
   background-color: #222;
-
 }
 
 b {
