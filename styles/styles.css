@@ -1,0 +1,52 @@
+* {
+  font-family: sans-serif;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border: 0;
+  margin: 10px;
+  text-align: center;
+
+}
+
+body {
+  background-image: url('http://unsplash.com/collections/215878/my-first-collection/cff25a15ca73c7693aefd4b720c8df09?photo=Ovn1hyBge38');
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+input {
+  margin-right: 0;
+  background-color: #222;
+  outline: none;
+}
+
+span {
+  padding: 9px;
+  background-color: #222;
+
+}
+
+b {
+  display: inline-block;
+  width: 25px;
+  margin-left: 0px;
+  background-color: #222;
+}
+
+input: focus {
+  outline: none;
+}
+
+#page-footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  background:  white;
+  color: black;
+  position:  absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
