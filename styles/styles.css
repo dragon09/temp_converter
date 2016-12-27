@@ -5,7 +5,7 @@
   color: white;
   padding: 5px;
   border: 0;
-  margin: 10px;
+  /*margin: 10px;*/
   text-align: center;
 
 }
@@ -15,10 +15,18 @@ body {
   position: relative;
   background-size: cover;
   background-repeat:no-repeat;
+  /*background-image: url("/temp_convert/temp_converter/image/ovn1hybge38-paul-morris.jpg");*/
+
 }
 
 .temp_box {
   position: absolute;
+  margin-left: 250px;
+  margin-bottom: 150px;
+  margin-top: 200px;
+  padding: 10px;
+
+
 }
 
 input {
